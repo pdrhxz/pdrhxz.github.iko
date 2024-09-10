@@ -40,4 +40,9 @@ img{
 .galeria img{
     height: 360px;
     border-radius: 50px;
+    transition: transform 0.2s;
+
 }
+ .galeria img:hover{
+    transform: scale(1.05);
+ }
