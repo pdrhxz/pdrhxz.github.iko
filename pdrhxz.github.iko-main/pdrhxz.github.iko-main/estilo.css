@@ -1,0 +1,72 @@
+ul {
+    list-style-type: none;
+    padding: 0%;
+    margin:0%
+}
+
+li {
+    display: inline;
+    padding: 10px;
+}
+
+body{
+    background-color: #B69AE7;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    
+}
+
+a {
+    color: rgb(115, 11, 113);
+}
+
+a:hover {
+    color: crimson;
+}
+    h1{
+
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+img{
+    max-width: 100%;
+    width: 100%;
+}
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 360px); 
+    gap:50px;
+
+}
+.galeria img{
+    height: 360px;
+    border-radius: 50px;
+    transition: transform 0.2s;
+
+}
+ .galeria img:hover{
+    transform: scale(1.05);
+ }
+ .contato img{
+            width: auto;    
+            height: 80px;
+            transition: transform 0.2s;
+            padding: 35px;
+            
+        }
+ .contato img:hover{
+    transform: scale(1.5);
+
+ }       
+
+ .contato {
+    padding: 80px;
+ }
+ .contato a {
+    text-decoration: none;
+ }
+
+ .about-me  img {
+    width: 300px;
+
+ }
