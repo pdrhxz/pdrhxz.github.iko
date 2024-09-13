@@ -24,6 +24,7 @@ a:hover {
     color: crimson;
 }
     h1{
+
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
 
@@ -45,4 +46,38 @@ img{
 }
  .galeria img:hover{
     transform: scale(1.05);
+ }
+ .contato img{
+            width: auto;    
+            height: 80px;
+            transition: transform 0.2s;
+            padding: 35px;
+            
+        }
+ .contato img:hover{
+    transform: scale(1.5);
+
+ }       
+
+ .contato {
+    padding: 80px;
+ }
+ .contato a {
+    text-decoration: none;
+ }
+
+ .about-me  img {
+    width: 300px;
+
+ }
+
+ .projetinhos img{
+    width: 300px;
+    padding: 50px;
+    
+    margin-right: 50%;
+ }
+
+ .projetinhos p {
+    padding: 20px;
  }
